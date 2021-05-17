@@ -1,3 +1,29 @@
+**node_modules
+*/node_modules/*
+
+stocks/stocksbe/node_modules
+## All front end related -- copied from frontend gitignore file
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
